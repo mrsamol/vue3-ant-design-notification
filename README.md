@@ -23,7 +23,6 @@ git clone https://github.com/mrsamol/vue3-ant-design-notification.git
 
 ```sh
 npm install
-
 ```
 
 ### Compile and Hot-Reload for Development
