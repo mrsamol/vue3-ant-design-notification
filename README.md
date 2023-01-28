@@ -15,13 +15,15 @@ See [Vite Configuration Reference](https://vitejs.dev/config/).
 ## Clone project
 
 ```
-    git clone https://github.com/mrsamol/vue3-ant-design-notification.git
+git clone https://github.com/mrsamol/vue3-ant-design-notification.git
+
 ```
 
 ## Install NPM
 
 ```sh
 npm install
+
 ```
 
 ### Compile and Hot-Reload for Development
