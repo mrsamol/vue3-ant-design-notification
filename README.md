@@ -37,7 +37,7 @@ npm run build
 
 ## Project Setup
 
-    1. Install Nodejs
+    1. Install Nodejs 14 or Up
     2. Install Vue3
     1. Install Ant Design
 
