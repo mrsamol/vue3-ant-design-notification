@@ -3,8 +3,17 @@ import { RouterLink, RouterView } from 'vue-router'
 import HelloWorld from './components/HelloWorld.vue'
 import openNotification from "./utils/ant_notification"
 
-const btnClickOpenNotification = () => {
+const btnClickOpenNotificationSuccess = () => {
   openNotification('success', 'Success', 'Hi, How are you today?')
+}
+const btnClickOpenNotificationWarning = () => {
+  openNotification('warning', 'Warning', 'Hi, How are you today?')
+}
+const btnClickOpenNotificationError = () => {
+  openNotification('error', 'Error', 'Hi, How are you today?')
+}
+const btnClickOpenNotificationInfo = () => {
+  openNotification('info', 'Info', 'Hi, How are you today?')
 }
 </script>
 
@@ -14,7 +23,10 @@ const btnClickOpenNotification = () => {
 
     <div class="wrapper">
       <HelloWorld msg="You did it!" />
-      <a-button type="primary" @click="btnClickOpenNotification">Click Open</a-button>
+      <a-button type="primary" @click="btnClickOpenNotificationSuccess">Success</a-button>
+      <a-button type="primary" @click="btnClickOpenNotificationError">Error</a-button>
+      <a-button type="primary" @click="btnClickOpenNotificationWarning">Warning</a-button>
+      <a-button type="primary" @click="btnClickOpenNotificationInfo">Info</a-button>
       <nav>
         <RouterLink to="/">Home</RouterLink>
         <RouterLink to="/about">About</RouterLink>
